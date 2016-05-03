@@ -8,7 +8,7 @@ public class DoctorTest {
 
   @Before
   public void setUp() {
-    DB.sql2o = new Sql2o("jdbc:postgresql://localhost:5432/medical_records_test", null, null);
+    DB.sql2o = new Sql2o("jdbc:postgresql://localhost:5432/office_test", null, null);
   }
   @After
   public void tearDown() {

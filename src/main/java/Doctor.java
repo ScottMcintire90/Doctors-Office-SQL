@@ -30,16 +30,12 @@ public class Doctor {
   public int getId() {
     return id;
   }
-
   public static List<Doctor> all() {
     String sql = "SELECT id, name, specialty FROM doctors";
     try(Connection con = DB.sql2o.open()) {
       return con.createQuery(sql).executeAndFetch(Doctor.class);
     }
   }
-
-
-
   public void save() {
     try(Connection con = DB.sql2o.open()) {
       String sql = "INSERT INTO doctors(name, specialty) VALUES (:name, :specialty)";
