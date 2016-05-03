@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PatientTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2016-05-03T18:40:48" hostname="epicodus-49.local" time="0.102">
+  <properties/>
+  <testcase name="getBirthdate_instantiatesWithBirthdate_String" classname="PatientTest" time="0.005"/>
+  <testcase name="equals_returnsTrueIfNamesAretheSame" classname="PatientTest" time="0.004"/>
+  <testcase name="patient_instantiatesCorrectly_true" classname="PatientTest" time="0.005"/>
+  <testcase name="save_returnsTrueIfNamesAretheSame" classname="PatientTest" time="0.013"/>
+  <testcase name="find_findsPatientInDatabase_true" classname="PatientTest" time="0.014"/>
+  <testcase name="find_returnsNullWhenNoPatientFound_null" classname="PatientTest" time="0.009"/>
+  <testcase name="all_emptyAtFirst" classname="PatientTest" time="0.008"/>
+  <testcase name="getName_instantiatesWithName_String" classname="PatientTest" time="0.005"/>
+  <testcase name="getId_patientsInstantiateWithAnID_1" classname="PatientTest" time="0.009"/>
+  <testcase name="save_assignsIdToObject" classname="PatientTest" time="0.012"/>
+  <testcase name="save_savesDoctorIdIntoDB_true" classname="PatientTest" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
